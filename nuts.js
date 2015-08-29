@@ -1,6 +1,4 @@
-function add() {
-  // TODO
-}
+var add=(...n)=>(f=>(f.valueOf=a=>n.reduce((a,b)=>a+b),f))(add.bind(n,...n))
 
 function test(a, b) {
   if (a == b) {
